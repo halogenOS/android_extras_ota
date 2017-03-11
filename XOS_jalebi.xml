@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+<RomName>XOS_jalebi</RomName>
+ <VersionName><![CDATA[ XOS_jalebi_7.1.1_20170310 ]]></VersionName>
+<VersionNumber type="integer">20170311</VersionNumber>
+<DirectUrl>http://halogenos.org/upload/ROM/7/jalebi/XOS_jalebi_7.1.1_20170310.zip</DirectUrl>
+<HttpUrl>http://halogenos.org/upload/ROM/7/?dir=jalebi</HttpUrl>
+<Android>7.1.1</Android>
+<CheckMD5>a738c39a0e05f3db5f333ab5a5d00b98</CheckMD5>
+<FileSize type="integer">333371143</FileSize>
+<Developer>Harsh Shandilya</Developer>
+<WebsiteURL nil="true">halogenOS.org</WebsiteURL>
+<DonateURL nil="true">halogenOS.org/donate</DonateURL>
+  <Changelog>[*] android-7.1.1_r25
+[*]OTA Updates support
+[*]Rootless Substratum support
+[*]Custom carrier label
+[*]OneHandMode
+[*]Custom battery styles
+[*]Statusbar Notification Ticker
+[*]Add back Navbar options to SystemUI Tuner
+[*]Fix alarm icon visibility issues in QS shade
+[*]Addressed a lot of BT issues
+[*]Disable app verification and enable third party app installs by default
+[*]Add support for Google Now and gestures in Launcher3
+[*]Pixel navbar animation
+</Changelog>
+</ROM>
