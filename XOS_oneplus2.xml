@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>XOS_oneplus2</RomName>
+  <VersionName><![CDATA[ XOS_oneplus2_7.1.1_20170325 ]]></VersionName>
+  <VersionNumber type="integer">20170325</VersionNumber>
+  <DirectUrl>https://halogenos.org/upload/ROM/7/oneplus2/XOS_oneplus2_7.1.1_20170325.zip</DirectUrl>
+  <HttpUrl>https://halogenos.org/upload/ROM/7/?dir=oneplus2</HttpUrl>
+  <Android>7.1.1</Android>
+  <CheckMD5>211cf2af330d3483276eaf066e12b24d</CheckMD5>
+  <FileSize type="integer">552171121</FileSize>
+  <Developer>Simao Gomes Viana</Developer>
+  <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
+  <DonateURL nil="true">halogenOS.org/donate</DonateURL>
+  <Changelog>## halogenOS 7.1.1 - OnePlus 2 - 2017/03/25
+
+- Merge upstream from AOSP, CAF and Lineage
+- Fix brightness slider padding
+- Fixup the dialpad button in dialer
+- Add expanded desktop settings
+- Improve One-Hand mode
+- OMS updates
+- Improve OTA (MANY THANKS TO Harsh Shandilya)
+- ART optimizations
+- Additional security patches
+- Many improvements, fixes and optimizations
+- Other miscellaneous changes
+
+OP2-specific:
+- Enable NightLight
+- Enable VoLTE
+- Improve CPU power management and hotplugging
+- Add some optimizations
+- Disable HW disk encryption since it is broken anyways
+- Latest OOS 3.5.8 kernel source
+- Faster USB charging</Changelog>
+</ROM>
