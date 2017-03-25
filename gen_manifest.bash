@@ -1,5 +1,12 @@
 #!/bin/bash
 
+version="$XOS_VERSION"
+device=$(echo $version | cut -d _ -f 2)
+android=$(echo $version | cut -d _ -f 3)
+product=${version%_*}
+product=${product%_*}
+date=$(echo $version | cut -d _ -f 3 | cut -d . -f 1)
+
 function write_xml() {
   echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
   echo "<ROM>"
@@ -20,25 +27,25 @@ function write_xml() {
 
 mkdir -p changelogs
 touch changelogs/${version}.txt
-nano changelogs/${version}.txt
+changelog_path="$changelog_path"
+if [ -z "$changelog_path" ]; then
+  changelog_path=changelogs/${version}.txt
+  if [ "$DO_NOT_NANO" != "true" ]; then
+    nano changelogs/${version}.txt
+  fi
+fi
 
-CHANGELOG="$(cat changelogs/${version}.txt)"
+CHANGELOG="$(cat $changelog_path)"
 
 if [ -z "$MISTER_MAINTAINER" ]; then
   echo "Tell me your name, mister maintainer: "
   read MISTER_MAINTAINER
-  echo "Hi, ${MISTER_MAINTAINER}!"
 fi
+
+echo "Hi, ${MISTER_MAINTAINER}!"
 
 MAINTAINER="$MISTER_MAINTAINER"
 
-version="$XOS_VERSION"
-device=$(echo $version | cut -d _ -f 2)
-android=$(echo $version | cut -d _ -f 3)
-product=${version%_*}
-product=${product%_*}
-date=$(echo $version | cut -d _ -f 3 | cut -d . -f 1)
 write_xml > $product.xml
 git add -A
 git commit -m "$version"
-git push gerrit HEAD:refs/for/XOS-7.1/ota-updates
