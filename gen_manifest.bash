@@ -1,4 +1,13 @@
+
 #!/bin/bash
+
+case $1 in
+  set-maintainer)
+    m_device="$2"
+    shift 2
+    echo -n "$@" > ${m_device}-maintainer.txt
+  ;;
+  *)
 
 version="$XOS_VERSION"
 device=$(echo $version | cut -d _ -f 2)
@@ -49,3 +58,5 @@ MAINTAINER="$MISTER_MAINTAINER"
 write_xml > $product.xml
 git add -A
 git commit -m "$version"
+;;
+esac
