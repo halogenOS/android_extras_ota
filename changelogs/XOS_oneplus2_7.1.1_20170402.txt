@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>XOS_oneplus2</RomName>
-  <VersionName><![CDATA[ XOS_oneplus2_7.1.1_20170402 ]]></VersionName>
-  <VersionNumber type="integer">20170402</VersionNumber>
-  <DirectUrl>https://halogenos.org/upload/ROM/7/oneplus2/XOS_oneplus2_7.1.1_20170402.zip</DirectUrl>
-  <HttpUrl>https://halogenos.org/upload/ROM/7/?dir=oneplus2</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>7fb27fdf97d3a686243a8126936b5b24</CheckMD5>
-  <FileSize type="integer">553549332</FileSize>
-  <Developer>Simao Gomes Viana</Developer>
-  <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
-  <DonateURL nil="true">halogenOS.org/donate</DonateURL>
-  <Changelog>## halogenOS 7.1.1 - OnePlus 2 - 2017/04/02
+## halogenOS 7.1.1 - OnePlus 2 - 2017/04/02
 
 - Merge CAF upstream
 - Update Keyboard
@@ -35,5 +22,4 @@
 - oneplus2: Update GPS configuration
 - oneplus2: Fix some selinux denials
 - oneplus2: Enable VoLTE everywhere
-- oneplus2: Enable HW-based encryption again</Changelog>
-</ROM>
+- oneplus2: Enable HW-based encryption again
