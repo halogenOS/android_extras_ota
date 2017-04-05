@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>XOS_oneplus3</RomName>
-  <VersionName><![CDATA[ XOS_oneplus3_7.1.1_20170329 ]]></VersionName>
-  <VersionNumber type="integer">20170329</VersionNumber>
-  <DirectUrl>https://halogenos.org/upload/ROM/7/oneplus3/XOS_oneplus3_7.1.1_20170329.zip</DirectUrl>
+  <VersionName><![CDATA[ XOS_oneplus3_7.1.1_20170405 ]]></VersionName>
+  <VersionNumber type="integer">20170405</VersionNumber>
+  <DirectUrl>https://halogenos.org/upload/ROM/7/oneplus3/XOS_oneplus3_7.1.1_20170405.zip</DirectUrl>
   <HttpUrl>https://halogenos.org/upload/ROM/7/?dir=oneplus3</HttpUrl>
   <Android>7.1.1</Android>
-  <CheckMD5>bbc5d550043ba1c26bf8443d64764d2c</CheckMD5>
-  <FileSize type="integer">600571439</FileSize>
-  <Developer></Developer>
+  <CheckMD5>6e0ec53e5a7a9c858eeb2f9533334efb</CheckMD5>
+  <FileSize type="integer">601091278</FileSize>
+  <Developer>Aditya Upreti</Developer>
   <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
   <DonateURL nil="true">halogenOS.org/donate</DonateURL>
   <Changelog></Changelog>
