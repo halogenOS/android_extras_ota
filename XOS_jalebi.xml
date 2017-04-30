@@ -1,28 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>XOS_jalebi</RomName>
- <VersionName><![CDATA[ XOS_jalebi_7.1.1_20170310 ]]></VersionName>
-<VersionNumber type="integer">20170311</VersionNumber>
-<DirectUrl>http://halogenos.org/upload/ROM/7/jalebi/XOS_jalebi_7.1.1_20170310.zip</DirectUrl>
-<HttpUrl>http://halogenos.org/upload/ROM/7/?dir=jalebi</HttpUrl>
-<Android>7.1.1</Android>
-<CheckMD5>a738c39a0e05f3db5f333ab5a5d00b98</CheckMD5>
-<FileSize type="integer">333371143</FileSize>
+<VersionName><![CDATA[ XOS_jalebi_7.1.2_20170430 ]]></VersionName>
+<VersionNumber type="integer">20170430</VersionNumber>
+<DirectUrl>https://sourceforge.net/projects/xos-for-jalebi/files/XOS_jalebi_7.1.2_20170430.zip/download</DirectUrl>
+<HttpUrl>https://sourceforge.net/projects/xos-for-jalebi/files/</HttpUrl>
+<Android>7.1.2</Android>
+<CheckMD5>3cc5a9050d93ef3f302f62462e041e52</CheckMD5>
+<FileSize type="integer">328492</FileSize>
 <Developer>Harsh Shandilya</Developer>
-<WebsiteURL nil="true">halogenOS.org</WebsiteURL>
-<DonateURL nil="true">halogenOS.org/donate</DonateURL>
-  <Changelog>[*] android-7.1.1_r25
-[*]OTA Updates support
-[*]Rootless Substratum support
-[*]Custom carrier label
-[*]OneHandMode
-[*]Custom battery styles
-[*]Statusbar Notification Ticker
-[*]Add back Navbar options to SystemUI Tuner
-[*]Fix alarm icon visibility issues in QS shade
-[*]Addressed a lot of BT issues
-[*]Disable app verification and enable third party app installs by default
-[*]Add support for Google Now and gestures in Launcher3
-[*]Pixel navbar animation
+<WebsiteURL>halogenOS.org</WebsiteURL>
+<DonateURL>halogenOS.org/donate</DonateURL>
+<Changelog>
+- Merge latest LA.UM CAF upstream
+- Merge latest LA.BF64 CAF upstream into selected repos (compatibility etc.)
+- Merge AOSP upstream (7.1.2 r2) including April security patches
+- OMS updates
+- Improve fingerprint sensor recognition speed
+- Add national roaming for Play in Poland on carriers T-Mobile, Plus and Orange (thanks to Franek)
+- Add other national roaming configs
+- SQLite update
+- Remove some bloat
+- Fix some sepolicy denials
+- HW Key rebinding (yay)
+- Disable settings dashboard suggestions & conditions
+- Rework Button Backlight Control
+- Rework status bar customizations
+- Make #VoLTE preference in settings great again
+- Remove Modern Services (Assistant is already globally available for most devices)
+- Fix wifi display for some devices
+- Overall improvements and fixes to media framework
+- Add NFC tile
+- Add notification tile
+- Add compass tile
+- Pass API check
+- Fix some possible crashes
+- Fix a vulnerability in base frameworks that allows a normal app to crash the system
+- QS Header layout fixes
+- Support header clicks on cellular tile (one-tap on collapsed QS for data enable/disable)
+- SIM fixes
+- Finish notification counters
+- Media ticker fixes
+- More QS changes
+- Cleanups
+- Low-level optimizations
+- Fix camera shutter sound toggle
+- Launcher fixes
+- Make microphone little bit louder
+- Add virtual displays support
+- Sensors improvements
+- Add status bar ticker (can be enabled in settings)
+- Disable immersive messages
+- OTA Updates improvements
+- Use SourceForge as download server now (faster etc.)
+- Fix some APNs
+- Fix vulnerabilities
+- Overall improvements, fixes and optimizations
 </Changelog>
 </ROM>
