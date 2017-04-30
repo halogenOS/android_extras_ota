@@ -1,17 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>XOS_oneplus2</RomName>
-  <VersionName><![CDATA[ XOS_oneplus2_7.1.2_20170430 ]]></VersionName>
-  <VersionNumber type="integer">20170430</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos-builds/files/release_builds/oneplus2/XOS_oneplus2_7.1.2_20170430.zip/download</DirectUrl>
-  <HttpUrl>https://halogenos.org/upload/ROM/7/?dir=oneplus2</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>f38101ada65507cd5f0c8e3bc37bfd9a</CheckMD5>
-  <FileSize type="integer">559474318</FileSize>
-  <Developer>Simao Gomes Viana</Developer>
-  <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
-  <DonateURL nil="true">halogenOS.org/donate</DonateURL>
-  <Changelog>- Merge latest LA.UM CAF upstream
+## halogenOS 7.1.2 - OnePlus 2 - 2017/04/30
+
+- Merge latest LA.UM CAF upstream
 - Merge latest LA.BF64 CAF upstream into selected repos (compatibility etc.)
 - Merge AOSP upstream (7.1.2 r2) including April security patches
 - OMS updates
@@ -80,5 +69,4 @@
 - oneplus2: don't load hcube at all
 - oneplus2: add and enable aptX & aptXHD bluetooth codec
 - oneplus2: media files update
-- oneplus2: RIL improvements</Changelog>
-</ROM>
+- oneplus2: RIL improvements
