@@ -23,7 +23,7 @@ function write_xml() {
   echo "  <VersionName><![CDATA[ $version ]]></VersionName>"
   echo "  <VersionNumber type=\"integer\">"$(date +%Y%m%d)"</VersionNumber>"
   echo "  <DirectUrl>https://sourceforge.net/projects/halogenos-builds/files/release_builds/$device/${version}.zip/download</DirectUrl>"
-  echo "  <HttpUrl>https://halogenos.org/upload/ROM/7/?dir=$device</HttpUrl>"
+  echo "  <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=$device</HttpUrl>"
   echo "  <Android>$android</Android>"
   echo "  <CheckMD5>"$(md5sum $OUT/$version.zip | awk '{print $1}')"</CheckMD5>"
   echo "  <FileSize type=\"integer\">"$(stat --printf="%s" $OUT/${version}.zip)"</FileSize>"
