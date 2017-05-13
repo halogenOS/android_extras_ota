@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>XOS_oneplus3</RomName>
-  <VersionName><![CDATA[ XOS_oneplus3_7.1.1_20170405 ]]></VersionName>
-  <VersionNumber type="integer">20170405</VersionNumber>
-  <DirectUrl>https://halogenos.org/upload/ROM/7/oneplus3/XOS_oneplus3_7.1.1_20170405.zip</DirectUrl>
-  <HttpUrl>https://halogenos.org/upload/ROM/7/?dir=oneplus3</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>6e0ec53e5a7a9c858eeb2f9533334efb</CheckMD5>
-  <FileSize type="integer">601091278</FileSize>
-  <Developer>Aditya Upreti</Developer>
+  <VersionName><![CDATA[ XOS_oneplus3_7.1.2_20170513 ]]></VersionName>
+  <VersionNumber type="integer">20170513</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/halogenos-builds/files/release_builds/oneplus3/XOS_oneplus3_7.1.2_20170513.zip/download</DirectUrl>
+  <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=oneplus3</HttpUrl>
+  <Android>7.1.2</Android>
+  <CheckMD5>552221524d2e138e2a47763875c7c9a7</CheckMD5>
+  <FileSize type="integer">608403126</FileSize>
+  <Developer>Simao Gomes Viana</Developer>
   <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
   <DonateURL nil="true">halogenOS.org/donate</DonateURL>
-  <Changelog></Changelog>
+  <Changelog>- Update blobs
+- Good stuff by sultanxda
+- Button backlight upgrade
+- Changes to halogenOS, includes:
+- NFC tile
+- Many fixes
+- AOSP upstream merge
+- CAF upstream merge
+- OMS updates
+- Sepolicy fixes
+- and more
+- Fixes
+- Optimizations</Changelog>
 </ROM>
