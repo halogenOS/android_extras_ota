@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>XOS_oneplus2</RomName>
-  <VersionName><![CDATA[ XOS_oneplus2_7.1.2_20170527 ]]></VersionName>
-  <VersionNumber type="integer">20170527</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos-builds/files/release_builds/oneplus2/XOS_oneplus2_7.1.2_20170527.zip/download</DirectUrl>
-  <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=oneplus2</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>63ad7d2bd08deac80417256673a085f5</CheckMD5>
-  <FileSize type="integer">559769252</FileSize>
-  <Developer>Simao Gomes Viana</Developer>
-  <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
-  <DonateURL nil="true">halogenOS.org/donate</DonateURL>
-  <Changelog>- Merge CAF 7.1.2 upstream (LA.UM)
+- Merge CAF 7.1.2 upstream (LA.UM)
 - Fix MTP
 - Add some dynamic Settings dashboard summaries
 - Add support for AArch32 targets in Vulkan
@@ -58,5 +45,4 @@
 - oneplus2: Improve power mangement
 - oneplus2: Cleanup device tree a little bit
 - oneplus2: Stop blocking significant motion sensor (isn't draining battery now)
-- oneplus2: Kernel fixes</Changelog>
-</ROM>
+- oneplus2: Kernel fixes
