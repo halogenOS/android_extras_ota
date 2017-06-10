@@ -1,0 +1,10 @@
+- Merge AOSP upstream (r17) including latest June security patches
+- Merge CAF LA.BF64 upstream into bluetooth repos
+- Remove dynamic navbar colors (as many have requested)
+- One hand mode for hardware keys (use hw key rebinding)
+- Add dashboard summary to SystemUI Tuner
+- Reduce turn off delay for button backlight when turning off the screen
+- Improve battery life
+- Update halogenOS keyboard
+- Some cleanup in the build system
+- Miscellaneous changes including bugfixes and improvements
