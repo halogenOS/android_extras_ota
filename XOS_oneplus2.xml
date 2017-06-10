@@ -3,7 +3,7 @@
   <RomName>XOS_oneplus2</RomName>
   <VersionName><![CDATA[ XOS_oneplus2_7.1.2_20170610 ]]></VersionName>
   <VersionNumber type="integer">20170610</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos/files/oneplus2/XOS_oneplus2_7.1.2_20170610.zip/download</DirectUrl>
+  <DirectUrl>https://sourceforge.net/projects/halogenos-builds/files/release_builds/oneplus2/XOS_oneplus2_7.1.2_20170610.zip/download</DirectUrl>
   <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=oneplus2</HttpUrl>
   <Android>7.1.2</Android>
   <CheckMD5>629ac58e5c9baf70e1ee5c451e5608bf</CheckMD5>

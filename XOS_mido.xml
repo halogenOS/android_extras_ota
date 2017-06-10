@@ -3,7 +3,7 @@
   <RomName>XOS_mido</RomName>
   <VersionName><![CDATA[ XOS_mido_7.1.2_20170610 ]]></VersionName>
   <VersionNumber type="integer">20170610</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos/files/mido/XOS_mido_7.1.2_20170610.zip/download</DirectUrl>
+  <DirectUrl>https://sourceforge.net/projects/halogenos-builds/files/release_builds/mido/XOS_mido_7.1.2_20170610.zip/download</DirectUrl>
   <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=mido</HttpUrl>
   <Android>7.1.2</Android>
   <CheckMD5>c28fcf53381e8b137191ecd5dec86467</CheckMD5>
