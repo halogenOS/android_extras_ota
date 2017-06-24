@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>XOS_mido</RomName>
-  <VersionName><![CDATA[ XOS_mido_7.1.2_20170610 ]]></VersionName>
-  <VersionNumber type="integer">20170610</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos-builds/files/release_builds/mido/XOS_mido_7.1.2_20170610.zip/download</DirectUrl>
+  <VersionName><![CDATA[ XOS_mido_7.1.2_20170624 ]]></VersionName>
+  <VersionNumber type="integer">20170624</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/halogenos/files/mido/XOS_mido_7.1.2_20170624.zip/download</DirectUrl>
   <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=mido</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>c28fcf53381e8b137191ecd5dec86467</CheckMD5>
-  <FileSize type="integer">611726990</FileSize>
+  <CheckMD5>536726eff15a2623bb904914f6fe8337</CheckMD5>
+  <FileSize type="integer">618973680</FileSize>
   <Developer>DroidThug</Developer>
   <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
   <DonateURL nil="true">halogenOS.org/donate</DonateURL>
-  <Changelog>- Merge AOSP upstream (r17) including latest June security patches
-- Merge CAF LA.BF64 upstream into bluetooth repos
-- Remove dynamic navbar colors (as many have requested)
-- One hand mode for hardware keys (use hw key rebinding)
-- Add dashboard summary to SystemUI Tuner
-- Reduce turn off delay for button backlight when turning off the screen
-- Improve battery life
-- Update halogenOS keyboard
-- Some cleanup in the build system
-- Miscellaneous changes including bugfixes and improvements</Changelog>
+  <Changelog></Changelog>
 </ROM>
