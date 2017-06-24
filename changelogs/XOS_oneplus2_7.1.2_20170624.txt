@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>XOS_oneplus2</RomName>
-  <VersionName><![CDATA[ XOS_oneplus2_7.1.2_20170624 ]]></VersionName>
-  <VersionNumber type="integer">20170624</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos/files/oneplus2/XOS_oneplus2_7.1.2_20170624.zip/download</DirectUrl>
-  <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=oneplus2</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>5e71b031b11e623a7c1526823fcc601c</CheckMD5>
-  <FileSize type="integer">569252326</FileSize>
-  <Developer>Simao Gomes Viana</Developer>
-  <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
-  <DonateURL nil="true">halogenOS.org/donate</DonateURL>
-  <Changelog>- Merge CAF upstream (LA.UM)
+- Merge CAF upstream (LA.UM)
 - New clock customization implementation
 - Battery life improvements
 - Pixel blue theme by default
@@ -42,5 +29,4 @@
 - oneplus2: Fixes in kernel
 - oneplus2: Security patches in kernel
 - oneplus2: Improve stability
-- oneplus2: Update some camera blobs</Changelog>
-</ROM>
+- oneplus2: Update some camera blobs
