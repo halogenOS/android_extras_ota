@@ -15,6 +15,7 @@ android=$(echo $version | cut -d _ -f 3)
 product=${version%_*}
 product=${product%_*}
 date=$(echo $version | cut -d _ -f 3 | cut -d . -f 1)
+product=${product/XOS_/}
 
 function write_xml() {
   echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
