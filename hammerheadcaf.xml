@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>hammerheadcaf</RomName>
-  <VersionName><![CDATA[ XOS_hammerheadcaf_7.1.2_20170625 ]]></VersionName>
-  <VersionNumber type="integer">20170625</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos/files/hammerheadcaf/XOS_hammerheadcaf_7.1.2_20170625.zip/download</DirectUrl>
+  <VersionName><![CDATA[ XOS_hammerheadcaf_7.1.2_20170701 ]]></VersionName>
+  <VersionNumber type="integer">20170701</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/halogenos/files/hammerheadcaf/XOS_hammerheadcaf_7.1.2_20170701.zip/download</DirectUrl>
   <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=hammerheadcaf</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>0062ace53b2c6340e5e70244d34cf1dc</CheckMD5>
-  <FileSize type="integer">408194064</FileSize>
+  <CheckMD5>77f95b76cb9372129ab9978d8f28a93d</CheckMD5>
+  <FileSize type="integer">366171029</FileSize>
   <Developer>Neil Agarwal</Developer>
   <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
   <DonateURL nil="true">halogenOS.org/donate</DonateURL>
