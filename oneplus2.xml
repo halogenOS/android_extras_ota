@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>oneplus2</RomName>
+  <VersionName><![CDATA[ XOS_oneplus2_7.1.2_20170708 ]]></VersionName>
+  <VersionNumber type="integer">20170708</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/halogenos/files/oneplus2/XOS_oneplus2_7.1.2_20170708.zip/download</DirectUrl>
+  <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=oneplus2</HttpUrl>
+  <Android>7.1.2</Android>
+  <CheckMD5>a20aacc2f34c6a3187436b14486f8c88</CheckMD5>
+  <FileSize type="integer">573446166</FileSize>
+  <Developer>Simao Gomes Viana</Developer>
+  <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
+  <DonateURL nil="true">halogenOS.org/donate</DonateURL>
+  <Changelog>- Merge AOSP upstream (r24) including latest July security patches
+- Add long press volume keys for music track skip feature
+- Fix a SystemUI crash related to clock
+- Many improvements
+- Miscellaneous bugfixes and optimizations
+- OnePlus devices: more Alert Slider modes
+- OnePlus devices: Gestures in new glance
+- oneplus2: Improve graphics performance
+- oneplus2: Improve scrolling smoothness (aka OnePlus 5 without Jelly)
+- oneplus2: Completely new haloplug for much better battery life while keeping good performance
+- oneplus2: New Tweak Panel for device-specific tweaks (currently only haloplug)
+- oneplus2: Improve network stability (aka reduce network drops)
+- oneplus2: Make fingerprint sensor faster
+- oneplus2: Update kernel to Linux 3.10.107
+- oneplus2: Merge CAF kernel upstream
+- oneplus2: OnePlus 5 camera (now you have 2x zoom and all the pro mode features)
+- oneplus2: Audio improvements
+- oneplus2: Overall optimization
+- oneplus2: Improve battery life
+- oneplus2: Fix some other things</Changelog>
+</ROM>
