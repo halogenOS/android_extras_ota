@@ -1,0 +1,7 @@
+## halogenOS 7.1.2 - 2017/07/08
+- Merge AOSP upstream (r24) including latest July security patches
+- Add long press volume keys for music track skip feature
+- Fix a SystemUI crash related to clock
+- Many improvements
+- Miscellaneous bugfixes and optimizations
+- hammerheadcaf: Few changes to device tree
