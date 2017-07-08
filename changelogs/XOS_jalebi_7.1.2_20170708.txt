@@ -1,0 +1,16 @@
+## halogenOS 7.1.2 - 2017/07/08
+- Merge AOSP upstream (r24) including latest July security patches
+- Add long press volume keys for music track skip feature
+- Fix a SystemUI crash related to clock
+- Many improvements
+- Miscellaneous bugfixes and optimizations
+- jalebi: Update adreno blobs from crackling
+- jalebi: Update GPS blobs from crackling
+- jalebi: Update widevine from crackling
+- jalebi: Disable fast dormancy
+- jalebi: Use HTTPS for GPS XTRA servers
+- jalebi: Tune cpusets for better handling of foreground processes
+- jalebi: Nuke ANT+ client
+- jalebi: Remove Adaptive LMK support
+- jalebi: Disable corectl and cpu_boost
+- jalebi: Revive perfd
