@@ -1,0 +1,6 @@
+- Merge CAF upstream (LA.UM.5.6 89xx and LA.UM.5.8 8x98)
+- Block certain apps from using certain sensors to prevent battery drain
+- Some changes (mainly fixes) from AOSP master
+- Add global support for .opus file format
+- Improve Lockscreen Visualizer and its code quality
+- jalebi: Remove qseecomd

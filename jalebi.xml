@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>jalebi</RomName>
-  <VersionName><![CDATA[ XOS_jalebi_7.1.2_20170708 ]]></VersionName>
-  <VersionNumber type="integer">20170708</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos/files/jalebi/XOS_jalebi_7.1.2_20170708.zip/download</DirectUrl>
+  <VersionName><![CDATA[ XOS_jalebi_7.1.2_20170722 ]]></VersionName>
+  <VersionNumber type="integer">20170722</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/halogenos/files/jalebi/XOS_jalebi_7.1.2_20170722.zip/download</DirectUrl>
   <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=jalebi</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>afd043b0a8aff41511a32b37d62e28cb</CheckMD5>
-  <FileSize type="integer">415282633</FileSize>
+  <CheckMD5>d9870d5fce64d83407f043d2ccd34a10</CheckMD5>
+  <FileSize type="integer">413028462</FileSize>
   <Developer>Harsh Shandilya</Developer>
   <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
   <DonateURL nil="true">halogenOS.org/donate</DonateURL>
   <Changelog>
-  ## halogenOS 7.1.2 - 2017/07/08
-  - Merge AOSP upstream (r24) including latest July security patches
-  - Add long press volume keys for music track skip feature
-  - Fix a SystemUI crash related to clock
-  - Many improvements
-  - Miscellaneous bugfixes and optimizations
-  - jalebi: Update adreno blobs from crackling
-  - jalebi: Update GPS blobs from crackling
-  - jalebi: Update widevine from crackling
-  - jalebi: Disable fast dormancy
-  - jalebi: Use HTTPS for GPS XTRA servers
-  - jalebi: Tune cpusets for better handling of foreground processes
-  - jalebi: Nuke ANT+ client
-  - jalebi: Remove Adaptive LMK support
-  - jalebi: Disable corectl and cpu_boost
-  - jalebi: Revive perfd
+- Merge CAF upstream (LA.UM.5.6 89xx and LA.UM.5.8 8x98)
+- Block certain apps from using certain sensors to prevent battery drain
+- Some changes (mainly fixes) from AOSP master
+- Add global support for .opus file format
+- Improve Lockscreen Visualizer and its code quality
+- jalebi: Remove qseecomd
   </Changelog>
 </ROM>
