@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>cheeseburger</RomName>
-  <VersionName><![CDATA[ XOS_cheeseburger_7.1.2_20170802 ]]></VersionName>
-  <VersionNumber type="integer">20170802</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/halogenos/files/cheeseburger/XOS_cheeseburger_7.1.2_20170802.zip/download</DirectUrl>
+  <VersionName><![CDATA[ XOS_cheeseburger_7.1.2_20170819 ]]></VersionName>
+  <VersionNumber type="integer">20170819</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/halogenos/files/cheeseburger/XOS_cheeseburger_7.1.2_20170819.zip/download</DirectUrl>
   <HttpUrl>http://halogenos.org/upload/ROM/7/?dir=cheeseburger</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>6f3c70a038987709fed857538d57b22d</CheckMD5>
-  <FileSize type="integer">661631573</FileSize>
+  <CheckMD5>8e80a0ca76adafd5330748112d9d151b</CheckMD5>
+  <FileSize type="integer">700973931</FileSize>
   <Developer>Simao Gomes Viana</Developer>
   <WebsiteURL nil="true">halogenOS.org</WebsiteURL>
   <DonateURL nil="true">halogenOS.org/donate</DonateURL>
-  <Changelog>- First release</Changelog>
+  <Changelog>- Merge AOSP upstream (r33) (includes August 5 security patch)
+- OP3/T &amp; OP5: improve DASH charging support
+- SDClang
+- Some fixes
+- Shorten animations to make everything snappier
+- cheeseburger: HiFi sound for microphone
+- cheeseburger: Fix audio effects like V4A, visualizer, ...
+- cheeseburger: Enable camera zero shutter delay
+- cheeseburger: Update vendor blobs
+- cheeseburger: Enable LTO and Clang optimizations
+- cheeseburger: Update fingerprints and oem stuff
+- cheeseburger: Update Linux kernel to 4.4.81
+- cheeseburger: Build kernel with Linaro 7.1.1 toolchain</Changelog>
 </ROM>
