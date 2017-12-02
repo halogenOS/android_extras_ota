@@ -1,3 +1,0 @@
-- First release
-- Kernel: Merge tag 'LA.UM.5.6.r1-04700-89xx.0' into cm-14.1
-- Kernel: Merge branch 'linux-3.18.y' into LA.UM
